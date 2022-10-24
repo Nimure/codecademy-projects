@@ -1,5 +1,5 @@
 # codecademy-projects
-Projects from my codecademy classes
+Projects from my codecademy classes. I am focusing on the Full Stack Engineering Career path as offered through Codecademy. This readme outlines my lessons and projects below. Along with this career based curriculum I am taking a few individual courses for alternate languages: python and C++. These do not have a readme file. Their respective folders contain the numbered projects only.
 
 ## Fundamentals of HTML
 

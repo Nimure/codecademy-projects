@@ -22,3 +22,5 @@ Learn and practice the fundamentals of CSS to add beautiful styling to your webp
 
 Build a stylized and responsive website with HTML and CSS.
 
+1. DevProject
+2. Dasmoto's Arts and Crafts

@@ -24,3 +24,15 @@ Build a stylized and responsive website with HTML and CSS.
 
 1. DevProject
 2. Dasmoto's Arts and Crafts
+
+## Deploying Websites
+
+Command line for building websites.
+
+1. Bicycle world
+2. Daily Buzz
+
+## Improved Styling with CSS
+
+Intermediate topics in CSS and navigation design.
+

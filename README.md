@@ -36,3 +36,6 @@ Command line for building websites.
 
 Intermediate topics in CSS and navigation design.
 
+1. Paint Store
+2. Typography
+3. Cheat Sheet

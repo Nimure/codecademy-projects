@@ -42,9 +42,5 @@ Intermediate topics in CSS and navigation design.
 4. The Summit
 5. Website-Design-System
 
-## Making a Website Responsive
 
-Responsive Website Design
 
-1. Flexbox: To-Do App
-2. Tea Cozy

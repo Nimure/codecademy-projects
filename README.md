@@ -39,3 +39,12 @@ Intermediate topics in CSS and navigation design.
 1. Paint Store
 2. Typography
 3. Cheat Sheet
+4. The Summit
+5. Website-Design-System
+
+## Making a Website Responsive
+
+Responsive Website Design
+
+1. Flexbox: To-Do App
+2. Tea Cozy

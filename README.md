@@ -48,6 +48,9 @@ Responsive Website Design
 
 1. Flexbox: To-Do App
 2. Tea Cozy
-
+3. PupSpa
+4. CSS Grid: Task Board
+5. Tsunami Coffee
+6. Fotomatic
 
 

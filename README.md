@@ -52,5 +52,7 @@ Responsive Website Design
 4. CSS Grid: Task Board
 5. Tsunami Coffee
 6. Fotomatic
+7. Company Home Page
+8. Club Website
 
 

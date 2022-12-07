@@ -38,9 +38,10 @@ Intermediate topics in CSS and navigation design.
 
 1. Paint Store
 2. Typography
-3. Cheat Sheet
-4. The Summit
-5. Website-Design-System
+3. Blueberries
+4. Cheat Sheet
+5. The Summit
+6. Website-Design-System
 
 ## Making a Website Responsive
 
@@ -55,4 +56,9 @@ Responsive Website Design
 7. Company Home Page
 8. Club Website
 
+##JavaScript Pt. 1
 
+Intro to JavaScript
+
+1. Kelvin Weather
+2. Dog Years

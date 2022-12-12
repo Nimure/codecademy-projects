@@ -66,3 +66,4 @@ Intro to JavaScript
 4. Race Day
 5. Rock, Paper, Scissors
 6. Sleep Debt Calculator
+7. JS Code Challenges

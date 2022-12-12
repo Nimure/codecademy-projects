@@ -56,9 +56,13 @@ Responsive Website Design
 7. Company Home Page
 8. Club Website
 
-##JavaScript Pt. 1
+## JavaScript Pt. 1
 
 Intro to JavaScript
 
 1. Kelvin Weather
 2. Dog Years
+3. Magic8Ball
+4. Race Day
+5. Rock, Paper, Scissors
+6. Sleep Debt Calculator

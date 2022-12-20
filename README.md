@@ -67,3 +67,12 @@ Intro to JavaScript
 5. Rock, Paper, Scissors
 6. Sleep Debt Calculator
 7. JS Code Challenges
+8. Number Guesser
+9. Secret Message
+10. Whale Talk
+11. Meal Maker
+12. Team Stats
+13. Grammar Checker
+14. Code Challenges Intermediate JavaScript
+15. Credit Card Checker
+16 Mysterious Organism

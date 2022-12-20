@@ -75,4 +75,4 @@ Intro to JavaScript
 13. Grammar Checker
 14. Code Challenges Intermediate JavaScript
 15. Credit Card Checker
-16 Mysterious Organism
+16. Mysterious Organism

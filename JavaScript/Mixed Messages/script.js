@@ -20,13 +20,13 @@ function generateRandomNumber(num) {
          // use the object's properties to customize the message being added to personalWisdom  
         switch(prop) {
             case 'falconryBirds':
-                personalFalconryWisdom.push(`You are flying a "${falconryWisdom[prop][optionIdx]}".`)
+                personalFalconryWisdom.push(`You are flying a ${falconryWisdom[prop][optionIdx]}.`)
                 break
             case 'huntOutput':
-                personalFalconryWisdom.push(`Your bird: "${falconryWisdom[prop][optionIdx]}".`)
+                personalFalconryWisdom.push(`Your bird: ${falconryWisdom[prop][optionIdx]}.`)
                 break
             case 'advice':
-                personalFalconryWisdom.push(`You should: "${falconryWisdom[prop][optionIdx]}".`)
+                personalFalconryWisdom.push(`You should: ${falconryWisdom[prop][optionIdx]}.`)
                 break
             default:
                 personalFalconryWisdom.push('There is not enough info.')

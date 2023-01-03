@@ -81,3 +81,7 @@ Additional JavaScript
 15. Code Challenges Intermediate JavaScript
 16. Credit Card Checker
 17. Mysterious Organism
+18. Mixed Messages
+
+## Javascript and the DOM
+19. Piano Keys

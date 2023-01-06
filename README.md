@@ -83,5 +83,6 @@ Additional JavaScript
 17. Mysterious Organism
 18. Mixed Messages
 
-## Javascript and the DOM
-19. Piano Keys
+## Interactive Websites
+1. Piano Keys
+2. Form-A-Story

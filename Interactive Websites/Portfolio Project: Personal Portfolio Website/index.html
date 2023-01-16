@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Portfolio Project: Personal Portfolio Website/style.css">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/5670078f7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack/Web Dev</p>
+                <h1>Hi, I'm <span>Lindsay</span><br> from Ohio.</h1>
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <!--about-->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam nunc, bibendum vestibulum nunc et, dictum maximus sem. In nisl est, ullamcorper id aliquet sed, malesuada ut sapien. Sed a nibh ut sapien tincidunt egestas non eget est. Nulla efficitur nibh a libero vestibulum pulvinar et a urna. Nullam viverra elit eget ornare luctus. Vestibulum at massa nec lorem tristique porta. Praesent fringilla, lorem ac dictum ultrices, arcu libero posuere diam, ultricies laoreet nisi orci sed diam. Nulla facilisi.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML, CSS, and javascript</li>
+                        <li><span>Additional Skills</span><br>Python, Linux</li>
+                        <li><span>Graphic Design</span><br>2D and 3D Graphics, Fonts, Color Themes</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development - Current</span><br>Personal Projects and Codecademy Classes</li>
+                        <li><span>Freelance Artist - 2020-2022</span><br>2D and 3D art and animation, HTML, CSS, and wordpress</li>
+                        <li><span>Embry-Riddle Aeronautical University - 2016-2020</span><br>2D and 3D graphics and animations for flight training videos</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Codecademy Full Stack Career Path - Current</span><br>HTML, CSS, JS, node.js</li>
+                        <li><span>The Digital Animation and VFX School - 2016</span><br>3D modeling, animation, rigging, and compositing.</li>
+                        <li><span>Auburn University - 2012</span><br>BS in Interdisciplinary Studies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!--services-->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam nunc, bibendum vestibulum nunc et, dictum maximus sem. In nisl est, ullamcorper id aliquet sed, malesuada ut sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-unity"></i>
+                <h2>3D Modeling</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam nunc, bibendum vestibulum nunc et, dictum maximus sem. In nisl est, ullamcorper id aliquet sed, malesuada ut sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Art/Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam nunc, bibendum vestibulum nunc et, dictum maximus sem. In nisl est, ullamcorper id aliquet sed, malesuada ut sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!---portfolio-->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png">
+                <div class="layer">
+                    <h3>Project</h3>
+                    <p>what it does</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png">
+                <div class="layer">
+                    <h3>Project 2</h3>
+                    <p>what it does</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png">
+                <div class="layer">
+                    <h3>Project 3</h3>
+                    <p>what it does</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+  </div>
+
+  <!--contact-->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Lindsayadamsart"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/lvadams2"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/nimure/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/lvadams/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Email" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+ </script> 
+
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxCVAOgLvqueKyf05Ld2T6uYaGF8IERnIxrie54Xb-DyIxIbw_dv2lTTU-vrXjKI8wh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
